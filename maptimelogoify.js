@@ -28,7 +28,7 @@ function MaptimeLogoify (logoText = "#maptime!", //text for logo
                                );
   };
   if (targetClassStyle !== undefined & targetClassStyle !== null & targetClassStyle !== "") {
-    $(target).css(targetClassStyle)
+    $(target).css(targetClassStyle);
   };
 
 };
