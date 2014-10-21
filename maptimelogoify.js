@@ -5,7 +5,7 @@ function MaptimeLogoify (logoText = "#maptime!", //text for logo
                          targetClass="logo", //div class to put the logo in) 
                          targetClassStyle //optional CSS for the target div, using jQuery's css() method
                         ) {
-  var target = "div." + targetClass
+  var target = "div." + targetClass;
   var colors = [["red","#ff0000"], 
                 ["orange","#ffa500"], 
                 ["yellow","#ffff00"], 
