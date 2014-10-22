@@ -1,7 +1,7 @@
 // function to maptime logo-ify some text. Requires jQuery
 
 function MaptimeLogoify(logoText, targetClass, targetClassStyle) {
-  logoText = typeof logoText !== 'undefined' ? logoText : "#maptime!"
+  logoText = typeof logoText !== 'undefined' ? logoText : "#madison!"
   targetClass = typeof targetClass != 'undefined' ? targetClass : "logo"
   var target = "div." + targetClass;
   var colors = [["red","#ff0000"], 
